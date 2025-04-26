@@ -1,0 +1,174 @@
+/* General Reset & Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Nicer sans-serif font */
+    line-height: 1.7; /* Improved readability */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Slightly lighter gray background */
+    color: #343a40; /* Darker gray text */
+    font-size: 16px;
+}
+
+/* Centered Content Container */
+.container {
+    max-width: 960px; /* Maximum width of the content */
+    margin: 30px auto; /* Center the container with space top/bottom */
+    padding: 25px 40px; /* Padding inside the container */
+    background-color: #ffffff; /* White background for the content */
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08); /* Softer shadow */
+    border-radius: 8px; /* Slightly rounded corners */
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #212529; /* Very dark gray/black for headings */
+    margin-bottom: 0.8em; /* Space below headings */
+    line-height: 1.3;
+}
+
+h1 {
+    font-size: 2.5em; /* Larger main heading */
+    font-weight: 600;
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+    font-weight: 600;
+    border-bottom: 2px solid #dee2e6; /* Subtle line under section titles */
+    padding-bottom: 0.4em;
+    margin-top: 1.5em; /* Space above section titles */
+}
+
+h3 {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #0d6efd; /* Accent color for project titles (example blue) */
+}
+
+/* Links */
+a {
+    color: #0d6efd; /* Standard link blue - choose an accent color you like */
+    text-decoration: none; /* Remove underline by default */
+    transition: color 0.2s ease-in-out; /* Smooth color change on hover */
+}
+
+a:hover {
+    color: #0a58ca; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover for clarity */
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee; /* Separator line */
+    margin-bottom: 20px;
+}
+
+header h1 {
+    margin-bottom: 0.2em;
+}
+
+header p {
+    font-size: 1.1em;
+    color: #6c757d; /* Muted color for subtitle */
+    margin-bottom: 1em;
+}
+
+header a {
+    margin: 0 10px; /* Space around header links */
+}
+
+/* Sections Styling */
+section {
+    padding: 25px 0; /* Vertical padding for sections */
+    margin-bottom: 15px; /* Space between sections */
+}
+
+/* Skills List */
+#skills ul {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+}
+
+#skills li {
+    margin-bottom: 8px; /* Space between skill items */
+    background-color: #e9ecef; /* Light background for skill tags */
+    padding: 5px 12px;
+    border-radius: 15px; /* Pill shape */
+    display: inline-block; /* Make tags flow inline */
+    margin-right: 8px;
+    font-size: 0.95em;
+}
+
+#skills li b {
+    color: #0d6efd; /* Accent color for skill category */
+    font-weight: 600;
+}
+
+#skills p b { /* Style the Soft Skills label */
+    font-weight: 600;
+    color: #212529;
+}
+
+
+/* Project Item Styling */
+#projects div {
+    margin-bottom: 25px; /* Space between project blocks */
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #eee; /* Dashed separator */
+}
+
+#projects div:last-child {
+     border-bottom: none; /* Remove border from last project */
+     margin-bottom: 0;
+     padding-bottom: 0;
+}
+
+
+#projects h3 {
+    margin-bottom: 0.5em;
+}
+
+#projects p {
+    margin-bottom: 0.5em;
+}
+
+#projects p i { /* Style the technologies line */
+    font-style: normal; /* Override italic */
+    color: #6c757d; /* Muted color */
+    font-size: 0.9em;
+    display: block; /* Put it on its own line */
+    margin-top: 5px;
+}
+
+
+/* Contact Section */
+#contact {
+    text-align: center;
+    background-color: #e9ecef; /* Slightly different background for emphasis */
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#contact h2 {
+    border-bottom: none; /* No line under contact heading */
+    margin-top: 0;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 30px 0 20px 0; /* More padding above footer */
+    font-size: 0.9em;
+    color: #6c757d; /* Muted color */
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+/* Horizontal Rule */
+hr {
+    display: none; /* Hide the HTML <hr> tags, we use CSS borders now */
+}
